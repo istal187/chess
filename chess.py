@@ -47,9 +47,9 @@ def display(self):
 
 # Prompt user for move, validate, and remove piece if required
 def move(indict):
-    print('\nStart: ')
-    rows = input('Row: ')
-    cols = input('Col: ')
-    print('\nFinish: ')
-    rowf = input('Row: ')
-    rows = input('Col: ')
+    start = str(input('\nStart: '))
+    rows = start[0]
+    cols = start[1]
+    fin = str(input('\nFinish: '))
+    rowf = fin[0]
+    colf = fin[1]
