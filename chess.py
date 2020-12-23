@@ -48,8 +48,8 @@ def display(self):
 # Prompt user for move, validate, and remove piece if required
 def move(indict):
     start = str(input('\nStart: '))
-    rows = start[0]
-    cols = start[1]
+    rows = int(start[0])
+    cols = int(start[1])
     fin = str(input('\nFinish: '))
-    rowf = fin[0]
-    colf = fin[1]
+    rowf = int(fin[0])
+    colf = int(fin[1])
